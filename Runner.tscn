@@ -54,6 +54,18 @@ margin_right = 500.0
 margin_bottom = 44.0
 text = "Day 1 Part 2"
 
+[node name="Day2Part1" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 48.0
+margin_right = 500.0
+margin_bottom = 68.0
+text = "Day 2 Part 1"
+
+[node name="Day2Part2" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 72.0
+margin_right = 500.0
+margin_bottom = 92.0
+text = "Day 2 Part 2"
+
 [node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/HBoxContainer"]
 margin_left = 504.0
 margin_right = 1004.0
@@ -78,3 +90,5 @@ margin_bottom = 580.0
 rect_min_size = Vector2( 0, 40 )
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day1Part1" to="." method="_on_Day1_pressed"]
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day1Part2" to="." method="_on_Day1Part2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day2Part1" to="." method="_on_Day2Part1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day2Part2" to="." method="_on_Day2Part2_pressed"]

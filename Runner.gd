@@ -74,3 +74,26 @@ func _on_Day2Part2_pressed():
 		elif sequence[mincount-1] != character and sequence[maxcount-1] == character:
 			numberOfValid += 1
 	output.text = str(numberOfValid)
+
+func findAmountForSlope(var slope: Vector2):
+	var lines = input.get_line_count()
+	var width = input.get_line(0).length()
+	var treeCount = 0
+	var position = slope
+	while position.y < lines:
+		var lineToCheck = input.get_line(position.y)
+		var xToCheck = int(position.x) % (width)
+		if lineToCheck[xToCheck] == '#':
+			treeCount+=1
+		position += slope
+	return treeCount
+
+func _on_Day3Part1_pressed():
+	output.text = str(findAmountForSlope(Vector2(3,1)))
+
+func _on_Day3Part2_pressed():
+	var finalOut = 1
+	var slopes = [Vector2(1, 1), Vector2(3, 1), Vector2(5, 1), Vector2(7, 1), Vector2(1, 2)]
+	for slope in slopes:
+		finalOut *= findAmountForSlope(slope)
+	output.text = str(finalOut)

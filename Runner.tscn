@@ -78,6 +78,54 @@ margin_right = 500.0
 margin_bottom = 140.0
 text = "Day 3 Part 2"
 
+[node name="Day4Part1" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 144.0
+margin_right = 500.0
+margin_bottom = 164.0
+text = "Day 4 Part 1"
+
+[node name="Day4Part2" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 168.0
+margin_right = 500.0
+margin_bottom = 188.0
+text = "Day 4 Part 2"
+
+[node name="Day5Part1" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 192.0
+margin_right = 500.0
+margin_bottom = 212.0
+text = "Day 5 Part 1"
+
+[node name="Day5Part2" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 216.0
+margin_right = 500.0
+margin_bottom = 236.0
+text = "Day 5 Part 2"
+
+[node name="Day6Part1" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 240.0
+margin_right = 500.0
+margin_bottom = 260.0
+text = "Day 6 Part 1"
+
+[node name="Day6Part2" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 264.0
+margin_right = 500.0
+margin_bottom = 284.0
+text = "Day 6 Part 2"
+
+[node name="Day7Part1" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 288.0
+margin_right = 500.0
+margin_bottom = 308.0
+text = "Day 7 Part 1"
+
+[node name="Day7Part2" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+margin_top = 312.0
+margin_right = 500.0
+margin_bottom = 332.0
+text = "Day 7 Part 2"
+
 [node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/HBoxContainer"]
 margin_left = 504.0
 margin_right = 1004.0
@@ -106,3 +154,11 @@ rect_min_size = Vector2( 0, 40 )
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day2Part2" to="." method="_on_Day2Part2_pressed"]
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day3Part1" to="." method="_on_Day3Part1_pressed"]
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day3Part2" to="." method="_on_Day3Part2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day4Part1" to="." method="_on_Day4Part1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day4Part2" to="." method="_on_Day4Part2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day5Part1" to="." method="_on_Day5Part1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day5Part2" to="." method="_on_Day5Part2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day6Part1" to="." method="_on_Day6Part1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day6Part2" to="." method="_on_Day6Part2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day7Part1" to="." method="_on_Day7Part1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ScrollContainer/VBoxContainer/Day7Part2" to="." method="_on_Day7Part2_pressed"]
